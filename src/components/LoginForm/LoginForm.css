@@ -1,0 +1,15 @@
+/* LoginForm.css */
+
+.custom-checkbox[type="checkbox"] {
+  border-color: #b7d6f4;
+}
+
+/* Target the placeholder text of the MDBInput component  */
+
+.custom-label {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace !important;
+  font-size: 30px !important;
+  font-style: italic !important;
+  color: #f01b1b !important;
+}

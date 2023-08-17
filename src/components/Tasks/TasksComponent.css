@@ -1,0 +1,147 @@
+.tasks-page-container {
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  margin-bottom: 300px;
+}
+
+.tasks-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+thead th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tfoot td {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.date-cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Increase the width of the coloms like "Task" and "Owner" columns etc */
+th:nth-child(1) {
+  text-align: center;
+}
+
+td:nth-child(1) {
+  width: 220px;
+  text-align: left;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 70px;
+  text-align: center;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 50px;
+  text-align: center;
+}
+
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(9),
+td:nth-child(9) {
+  width: 80px;
+  text-align: center;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  text-align: center;
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  text-align: center;
+  width: 220px;
+  word-break: break-word;
+}
+
+th:nth-child(7),
+td:nth-child(7),
+th:nth-child(8),
+td:nth-child(8) {
+  width: 80px;
+  text-align: center;
+}
+
+th:nth-child(10),
+td:nth-child(10) {
+  width: 170px;
+  text-align: center;
+}
+
+th:nth-child(11),
+td:nth-child(11) {
+  text-align: center;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
